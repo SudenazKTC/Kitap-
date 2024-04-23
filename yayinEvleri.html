@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ketep</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="renpons.css">
+
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <!--Boxicon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Nav-->
+  <nav class="navbar navbar-expand">
+    <a class="navbar-brand" id="lg" href="./index.html">SDK</a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="a">
+              Menü
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./kitaplar.html">Kitaplar</a></li>
+              <li><a class="dropdown-item" href="./yayinEvleri.html">Yayın Evleri</a></li>
+              <li><a class="dropdown-item" href="./yazarlar.html">Yazar</a></li>
+            </ul>
+          </li>
+      </ul>
+          <div class="container-fluid" id="search">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline" type="submit">Ara</button>
+              </form>
+          </div>
+          
+          <div class="container-fluid col-3" id="btn">
+              <form class="d-flex">
+                <button class="btn btn-outline" type="submit">
+                  <a href="register.html">
+                    Üye Ol
+                  </a>
+                </button>
+                <button class="btn btn-outline" type="submit">
+                  <a href="logIn.html">
+                    Giriş Yap
+                  </a>
+                </button>
+                <button class="btn btn-outline" type="submit">Sepet</button>
+              </form>
+          </div>
+    </div>
+</nav>
+
+<div class="block">
+  <a href="./kitaplar.html" class="text">Kitaplar</a>
+  <p class="text">|</p>
+  <a href="./yayinEvleri.html" class="text">Yayın Evleri</a>
+  <p class="text">|</p>
+  <a href="./yazarlar.html" class="text">Yazar</a>
+</div>
+<!--Nav-->
+    
+<!--Main-->
+    <div class="yayinEvi">
+    </div>
+<!--Main-->
+
+<!-- Footer -->
+<footer>
+  <div class="ftr-top">
+    <div class="footer-box">
+      <h4>Kategoeriler</h4>
+      <ul>
+        <li>Kitaplar</li>
+        <li>YayınEvleri</li>
+        <li>Yazar Listesi</li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h4>Önemli Bilgiler</h4>
+      <ul>
+        <li>Hakkımızda</li>
+        <li>Kişisel Verilerin Korunması</li>
+        <li>Teslimat Koşulları</li>
+        <li>Satış Sözleşmesi</li>
+        <li>Garanti ve İade Koşulları</li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h4>Hızlı Erişim</h4>
+      <ul>
+        <li>İletişim</li>
+        <li>Mağazalarımız</li>
+        <li>Yeni Çıkan Kitaplar</li>
+        <li>Çok Satan Kitaplar</li>
+        <li>İşlem Rehberi</li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h4>Üye</h4>
+      <ul>
+        <li>Sık Sorulan Sorular</li>
+        <li>Yeni Üyelik</li>
+        <li>Üye Girişi</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="ftr-btm">
+    <p>
+      <span> SDK </span> Ticaret Sistemleriyle Hazırlanmıştır.
+    </p>
+  </div>
+</footer>
+<!-- Footer -->
+
+    <script src="yayinEviScripts.js"></script>
+</body>

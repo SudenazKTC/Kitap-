@@ -1,0 +1,1662 @@
+@media (min-width: 1801px) and (max-width: 2700px){
+    body{
+        overflow-x: hidden;
+        width: 110%;
+    }
+
+    .navbar{
+
+        #lg{
+            font-size: 1.8rem;
+        }
+
+        #a{
+            font-size: 1.4rem;
+        }
+
+        #btn{
+
+            button{
+                font-size: 1.4rem;
+            }
+        }
+
+        #search{
+            input{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .block{
+        line-height: 5px;
+    }
+
+    .block .text{
+        font-size: 1.5rem;
+    }
+    
+    .carousel{
+        width: 95%;
+    }
+
+    .icons{
+        margin: 2rem;
+    }
+
+    .tabs ul li{
+        font-size: 2rem;
+    }
+
+    #next, #next2, #next3{
+        right: 10px;
+    }
+
+    .publisher{
+        width: 110%;
+    }
+
+    .info{
+        width: 100%;
+        margin-left: 15%;
+        display: flex;
+
+        .inf{
+            display: flex;
+        }
+    
+        .info-img{
+    
+            img{
+                width: 30rem;
+            }
+        }
+    }
+
+    .bottom{
+        
+        .bottom-top{
+            padding: 1rem;
+            font-size: 2rem;
+        }
+
+        .bottom-btm{
+            width: 100%;
+
+            .btm-1{
+                margin-left: 20%;
+
+                img{
+                    width: 20rem;
+                }
+
+                .img p{
+                    font-size: 1.5rem;
+                }
+            }
+
+            .btm-2{
+
+                h2{
+                    font-size: 2rem;
+                }
+
+                h1{
+                    font-size: 2.2rem;
+                }
+
+                p{
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+
+    footer{
+
+        .ftr-top{
+            padding: 1.5rem;
+
+            .footer-box{
+                margin: 5rem;
+                font-size: 1.8rem;
+                line-height: 3rem;
+
+                h4{
+                    font-size: 2.2rem;
+                }
+            }
+        }
+    }
+}   
+
+@media(min-width: 1701px) and (max-width:1800px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .navbar{
+        width: 110%;
+
+        .navbar-nav{
+            font-size: 1rem;
+        }
+
+        .dropdown-item{
+            font-size: 1rem;
+        }
+
+        .btn{
+            font-size: 1rem;
+        }
+
+        #btn{
+            margin-right: 8rem;
+        }
+    }
+
+    .block{
+        width: 100%;
+    }
+
+    .carousel{
+        width: 100%;
+    }
+
+    .icons{
+        width: 100%;
+    }
+
+    .tabs{
+        margin-top: 1%;
+    }
+
+    .sd{
+        width: 100%;
+    }
+
+    #next, #next2, #next3{
+        right: 50px;
+    }
+
+    .publisher{
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .info{
+        width: 100%;
+        margin-left: 15%;
+        display: flex;
+
+        .inf{
+            display: flex;
+        }
+    
+        .info-img{
+    
+            img{
+                width: 18rem;
+            }
+        }
+    }
+
+    .bottom{
+
+        .bottom-top{
+            width: 80%;
+        }
+
+        .bottom-btm{
+            width: 100%;
+        }
+    }
+
+    footer{
+        width: 100%;
+    }
+}
+
+@media(min-width: 1501px) and (max-width:1700px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .navbar{
+        width: 100%;
+
+        .navbar-nav{
+            font-size: 1rem;
+        }
+
+        .dropdown-item{
+            font-size: 1rem;
+        }
+
+        .btn{
+            font-size: 1rem;
+        }
+
+        #btn{
+            margin-right: 2rem;
+        }
+    }
+
+    .carousel{
+        width: 100%;
+    }
+
+    .icons{
+        width: 100%;
+    }
+
+    .sd{
+        width: 100%;
+    }
+
+    #next, #next2, #next3{
+        right: 30px;
+    }
+
+    .publisher{
+        width: 75%;
+        gap: 0;
+        margin-left: 8%;
+
+        .publisher-box{
+            display: block;
+            margin: 0;
+            margin-left: 2%;
+            width: 100%;
+
+            .box1{
+                img{
+                    width: 70%;
+                }
+            }
+        }
+    }
+
+    .info{
+        width: 85%;
+        margin-left: 5%;
+        display: flex;
+
+        .inf{
+            display: flex;
+        }
+    
+        .info-img{
+    
+            img{
+                width: 18rem;
+            }
+        }
+    }
+
+    .bottom{
+        .bottom-top{
+            width: 60%;
+            margin-left: 15%;
+        }
+
+        .bottom-btm{
+            width: 100%;
+
+            .btm-1{
+                display: block;
+                width: 40%;
+
+                .img p{
+                    margin-top: 5px;
+                    margin-left: 8%;
+                }
+
+                .iletisim-bilgi{
+                    margin-left: -30%;
+                }
+            }
+        }
+    }
+
+    footer{
+        width: 100%;
+    }
+}
+
+@media(min-width: 1260px) and (max-width:1500px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .navbar{
+        width: 110%;    
+
+        .navbar-nav{
+            font-size: 0.9rem;
+        }
+
+        .dropdown-item{
+            font-size: 0.9rem;
+        }
+
+        .btn{
+            font-size: 0.9rem;
+        }
+
+        #btn{
+            margin-right: 6%;
+        }
+    }
+
+    .block{
+        width: 110%;
+    }
+
+    .carousel{
+        width: 110%;
+    }
+
+    .icons{
+        width: 110%;
+    }
+
+    .tabs{
+        margin-top: 1rem;
+    }
+
+    .sd{
+        width: 110%;
+    }
+
+    #next, #next2, #next3{
+        right: 0px;
+    }
+
+    .slider, .slider2, .slider3{
+        height: 80%;
+        margin-left: 5rem;
+        padding: 2rem;
+
+        .product, .product2, .product3{
+            min-width: 12rem;
+            min-height: 20rem;
+    
+            .product-img{
+                padding: 0;
+                margin-bottom: 0;
+                height: 55%;
+
+                img{
+                    width: 7rem;
+                    height: 9rem;
+                    object-fit: cover;
+                }
+            }
+
+            .product-name{
+                height: 15%;
+                font-size: 0.9rem;
+                margin-top: 0.4rem;
+            }
+
+            .product-price{
+                height: 15%;
+                font-size: 1rem;
+                margin-top: -4%;
+            }
+
+            .btn-buy{
+                width: 100%;
+                height: 15%;
+                font-size: 0.8rem;
+                padding: 0;
+                margin-top: -4%;
+            }
+        }
+    }
+
+    .publisher{
+        width: 100%;
+        margin-left: 8%;
+    }
+
+    .info{
+        width: 100%;
+        margin-left: 10%;
+        display: flex;
+
+        .inf{
+            display: flex;
+        }
+    
+        .info-img{
+    
+            img{
+                width: 18rem;
+            }
+        }
+    }
+
+    .bottom{
+        .bottom-top{
+            width: 90%;
+            margin-left: 8%;
+        }
+
+        .bottom-btm{
+            width: 110%;
+
+            .btm-1{
+                display: block;
+                width: 40%;
+
+                .img p{
+                    margin-top: 5px;
+                    margin-left: 8%;
+                }
+
+                .iletisim-bilgi{
+                    margin-left: -30%;
+                }
+            }
+        }
+    }
+
+    footer{
+        width: 110%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1260px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .navbar{
+        width: 100%;
+
+        .navbar-nav{
+            font-size: 0.9rem;
+        }
+
+        .dropdown-item{
+            font-size: 0.9rem;
+        }
+
+        .btn{
+            font-size: 0.9rem;
+        }
+    }
+
+    #btn{
+        margin-right: 8rem;
+    }
+
+    .block{
+        width: 100%;
+    }
+
+    .carousel{
+        width: 95%;
+    }
+
+    .icons{
+        width: 90%;
+    }
+
+    .tabs{
+        margin-top: 1rem;
+    }
+
+    #next ,#next2 ,#next3{
+        right: 100px;
+    }
+
+    .sd{
+        width: 100%;
+    }
+
+    .slider, .slider2, .slider3{
+        height: 80%;
+        margin-left: 5rem;
+        padding: 2rem;
+
+        .product, .product2, .product3{
+            min-width: 10rem;
+            min-height: 16rem;
+    
+            .product-img{
+                padding: 0;
+                margin-bottom: 0;
+                height: 55%;
+
+                img{
+                    width: 6rem;
+                    height: 7rem;
+                    object-fit: cover;
+                }
+            }
+
+            .product-name{
+                height: 15%;
+                font-size: 0.8rem;
+                margin-top: 0.4rem;
+            }
+
+            .product-price{
+                height: 15%;
+                font-size: 0.9rem;
+                margin-top: -4%;
+            }
+
+            .btn-buy{
+                width: 100%;
+                height: 15%;
+                font-size: 0.7rem;
+                padding: 0;
+                margin-top: -4%;
+            }
+        }
+    }
+
+    .publisher{
+        width: 90%;
+            grid-template-columns: repeat(3,1fr);
+            gap: 0;
+
+            .publisher-box{
+                display: block;
+                margin: 0;
+                margin-left: 2%;
+                width: 40%;
+    
+                .box1{
+                    img{
+                        width: 80%;
+                    }
+                }
+            }
+    }
+
+    .info{
+        width: 90%;
+        margin-left: 6%;
+        display: flex;
+
+        .inf{
+            display: flex;
+        }
+    
+        .info-img{
+    
+            img{
+                width: 13rem;
+                border-radius: 1rem;
+            }
+        }
+    }
+
+    .bottom{
+        .bottom-top{
+            width: 80%;
+        }
+
+        .bottom-btm{
+            width: 100%;
+
+            .btm-1{
+                display: block;
+                width: 40%;
+
+                .img p{
+                    margin-top: 5px;
+                    margin-left: 8%;
+                }
+
+                .iletisim-bilgi{
+                    margin-left: -30%;
+                }
+            }
+        }
+    }
+
+    footer{
+        width: 100%;
+
+        .ftr-top{
+            margin-left: 5%;
+        }
+    }
+
+    .book{
+    
+        .filter{
+            width: 28rem;
+            margin: 3%;
+            
+            .filt-info{
+                font-size: 0.8rem;
+            }
+        }
+    
+        .book-product ,.cokSatan ,.manga ,.bilimKurgu{
+            width: 95%;
+            margin-top: 4%;
+            margin-right: 2rem;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 1rem;
+            
+        }
+    }
+
+    .yayinEvi ,.yazarList{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 1.5rem;
+        
+    
+        .yayin{
+    
+            a{
+                padding: 0.8rem;
+                font-size: 0.7rem;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    body{
+        overflow-x: hidden;
+        width: 110%;
+    }
+
+    .navbar{
+        width: 88%;
+
+        .navbar-nav{
+            font-size: 0.8rem;
+        }
+
+        .dropdown-item{
+            font-size: 0.8rem;
+        }
+
+        #btn{
+            margin-right: 6rem;
+
+            button{
+                margin-left: 0.5rem;
+            }
+
+            .btn{
+                font-size: 0.8rem;
+            }
+        }
+
+        #search{
+            input{
+                width: 6rem;
+            }
+        }
+    }
+
+    .block{
+        width: 90%;
+    }
+
+    .carousel{
+        width: 95%;
+    }
+
+    .icons{
+        width:80%;
+        margin-top: -3%;
+        margin-left: 5%;
+
+        img{
+            height: 3rem;
+            width: 1rem;    
+        }
+
+        .card-title{
+            display: none;
+        }
+    }
+
+    #next, #next2, #next3{
+        right: 80px;
+    }
+
+    .tabs{
+        width: 90%;
+    }
+
+    .sd{
+        width: 107%;
+    }
+
+    .slider, .slider2, .slider3{
+        height: 80%;
+        margin-left: 5rem;
+        padding: 2rem;
+
+        .product, .product2, .product3{
+            min-width: 10rem;
+            min-height: 16rem;
+    
+            .product-img{
+                padding: 0;
+                margin-bottom: 0;
+                height: 55%;
+
+                img{
+                    width: 6rem;
+                    height: 7rem;
+                    object-fit: cover;
+                }
+            }
+
+            .product-name{
+                height: 15%;
+                font-size: 0.8rem;
+                margin-top: 0.4rem;
+            }
+
+            .product-price{
+                height: 15%;
+                font-size: 0.9rem;
+                margin-top: -4%;
+            }
+
+            .btn-buy{
+                width: 100%;
+                height: 15%;
+                font-size: 0.7rem;
+                padding: 0;
+                margin-top: -4%;
+            }
+        }
+    }
+
+    .publisher{
+        width: 80%;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 10%;
+
+        img{
+            width: 70%;
+        }
+    }
+
+    .info{
+        display: block;
+        margin-left: 15%;
+        width: 70%;
+
+        .inf{
+            display: flex;
+        }
+    
+        .info-img{
+            width: 50%;
+    
+            img{
+                width: 15rem;
+                border-radius: 1rem;
+            }
+        }
+    }
+
+    .bottom{
+        .bottom-top{
+            font-size: 0.7rem;
+            width: 75%;
+        }
+
+        .bottom-btm{
+            width: 90%;
+
+            .btm-1{
+                display: block;
+                width: 40%;
+
+                .img p{
+                    margin-top: -20px;
+                    margin-left: 8%;
+                }
+
+                .iletisim-bilgi{
+                    margin-left: -30%;
+                }
+            }
+        }
+    }
+
+    footer{
+        width: 90%;
+
+        .ftr-top{
+            margin-left: 1rem;
+            padding: 1rem;
+
+            .footer-box{
+                font-size: 0.9rem;
+                margin: 0.5rem;
+            }
+        }
+    }
+
+    .book{
+        width: 88%;
+    
+        .filter{
+            width: 15rem;
+            margin: 3%;
+        }
+    
+        .book-product ,.cokSatan ,.manga ,.bilimKurgu{
+            width: 45%;
+            margin-top: 4%;
+            margin-right: 2rem;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 0.5rem;
+            
+        }
+    }
+
+    .yayinEvi ,.yazarList{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1.5rem;
+        
+    
+        .yayin{
+    
+            .yayinImg{
+                width: 100%;
+        
+                img{
+                    width: 50%;
+                }
+            }
+    
+            a{
+                padding: 0.8rem;
+                font-size: 0.7rem;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 767px){
+    body{
+        overflow-x: hidden;
+        width: 80%;
+    }
+
+    .navbar{
+        width: 95%;
+
+        .navbar-nav{
+            font-size: 0.7rem;
+        }
+
+        .dropdown-item{
+            font-size: 0.7rem;
+        }
+
+        .btn{
+            margin-left: -50px;
+            font-size: 0.7rem;
+        }
+
+        #search{
+            input{
+                width: 4rem;
+                margin-left: -10px;
+            }
+            button{
+                margin-left: 5%;
+            }
+        }
+    }
+
+    #btn{
+        margin-right: 25%;
+    }
+
+    .block{
+        width: 100%;
+    }
+
+    .carousel{
+        width: 95%;
+    }
+
+    .icons{
+        width: 95%;
+        margin-left: -3%;
+        margin-top: -20px;
+
+        img{
+            height: 3.5rem;
+            width: 1.5rem;
+        }
+
+        a{
+            padding: 0.2rem;
+        }
+
+        .card-body{
+            display: none;
+        }
+    }
+
+    .tabs{
+        margin-left: -5%;
+    }
+
+    .sd{
+        width: 95%;
+    }
+
+    #next, #next2, #next3{
+        right: 150px;
+    }
+
+    .slider, .slider2, .slider3{
+        height: 80%;
+        margin-left: 5rem;
+        padding: 2rem;
+
+        .product, .product2, .product3{
+            min-width: 6rem;
+            min-height: 12rem;
+    
+            .product-img{
+                padding: 0;
+                margin-bottom: 0;
+                height: 55%;
+
+                img{
+                    width: 3rem;
+                    height: 5rem;
+                    object-fit: cover;
+                }
+            }
+
+            .product-name{
+                height: 15%;
+                font-size: 0.6rem;
+                margin-top: 0.4rem;
+            }
+
+            .product-price{
+                height: 15%;
+                font-size: 0.7rem;
+                margin-top: -4%;
+            }
+
+            .btn-buy{
+                width: 100%;
+                height: 15%;
+                font-size: 0.5rem;
+                padding: 0;
+                margin-top: -4%;
+            }
+        }
+    }
+
+    .publisher{
+        margin-left: 10%;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0.1rem;
+
+        .publisher-box{
+            display: block;
+            margin: 0;
+            margin-left: 2%;
+            width: 50%;
+
+            .box1{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .info{
+        display: block;
+        margin-left: 10%;
+        width: 50%;
+
+        .inf{
+            display: flex;
+        }
+
+        .info-img{
+            width: 50%;
+    
+            img{
+                width: 12rem;
+                border-radius: 1rem;
+            }
+        }
+    }
+
+    .bottom{
+        .bottom-top{
+            width: 70%;
+            font-size: 0.5rem;
+            margin-left: 13%;
+        }
+
+        .bottom-btm{
+            width: 100%;
+
+            .btm-1{
+                display: block;
+                width: 50%;
+                margin-left: 1rem;
+
+                .img p{
+                    margin-top: -20px;
+                    margin-left: 8%;
+                }
+
+                .iletisim-bilgi{
+                    margin-left: -30%;
+                }
+            }
+        }
+    }
+
+    footer{
+        width: 100%;
+
+        .ftr-top{
+            margin-left: -20px;
+            padding: 1.5rem;
+
+            .footer-box{
+                margin: 1rem;
+                font-size: 0.6rem;
+                line-height: 1rem;
+
+                h4{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .yayinEvi ,.yazarList{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1.5rem;
+        
+    
+        .yayin{
+    
+            .yayinImg{
+                width: 100%;
+        
+                img{
+                    width: 50%;
+                }
+            }
+    
+            a{
+                padding: 0.8rem;
+                font-size: 0.7rem;
+            }
+        }
+    }
+}
+
+@media (max-width:576px) {
+    body{
+        overflow-x: hidden;     
+        width: 100%;
+    }
+
+    .collapse{
+        display: none;
+    }
+
+    .carousel{
+        width: 100%;
+        margin-top: 2%;
+        z-index: 999;
+    }
+    
+    .navbar{
+        width: 100%;
+
+        #lg{
+            font-size: 1.1rem;
+        }
+
+        .navbar-nav{
+            font-size: 0.5rem;
+        }
+
+        .dropdown-item{
+            font-size: 0.5rem;
+        }
+
+        .btn{
+            margin-left: -50px;
+            font-size: 0.6rem;
+        }
+
+        #search{
+            input{
+                width: 6rem;
+                margin-left: -10px;
+            }
+
+            button{
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .block{
+        width: 100%;
+            font-size: 0.6rem;
+            line-height: 1;
+
+            a{
+                font-size: 0.2rem;
+            }
+    }
+
+    .block .text{
+        font-size: 0.7rem;
+        margin-left: 1%;
+    }
+
+    .block p{
+        margin-top: 1rem;
+    }
+
+    .carousel{
+        width: 100%;
+    }
+
+    .icons{
+        width: 100%;
+        margin-top: -3%;
+        height: 7rem;
+
+        img{
+            width: 3rem;
+            height: 3rem;
+        }
+
+        .card{
+            margin-left: 0rem;
+            margin-top: 1rem;
+        }
+    }
+
+    .tabs{
+        width: 90%;
+        margin-left: 2%;
+    }
+
+    .tabs ul li{
+        font-size: 0.5rem;
+        margin-top: 2%;
+    }
+
+    .sd{
+        width: 110%;
+    }
+
+    #prev, #prev2, #prev3{
+        left: 0;
+        z-index: 999;
+    }
+    
+    #next, #next2, #next3{
+        right: 0;
+        z-index: 999;
+    }
+
+    .slider, .slider2, .slider3{
+        height: 20%;
+        padding: 2rem;
+        margin-left: 0;
+
+        .product, .product2, .product3{
+            min-width: 6rem;
+            min-height: 10rem;
+    
+            .product-img{
+                padding: 0;
+                margin-bottom: 0;
+                height: 55%;
+
+                img{
+                    width: 3rem;
+                    height: 5rem;
+                    object-fit: cover;
+                }
+            }
+
+            .product-name{
+                height: 15%;
+                font-size: 0.5rem;
+                margin-top: 0.4rem;
+            }
+
+            .product-price{
+                height: 15%;
+                font-size: 0.7rem;
+                margin-top: -4%;
+            }
+
+            .btn-buy{
+                width: 100%;
+                height: 15%;
+                font-size: 0.5rem;
+                padding: 0;
+                margin-top: -4%;
+            }
+        }
+    }
+
+    .publisher{
+        margin-left: 25%;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0.1rem;
+
+        .publisher-box{
+            display: block;
+            margin: 0;
+            margin-left: 2%;
+            width: 50%;
+
+            .box1{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .info{
+        display: block;
+        width: 50%;
+        margin-left: 30%;
+
+        .inf{
+            display: block;
+        }
+
+        .info-img{
+            margin-top: 1rem;
+            width: 50%;
+
+            img{
+                width: 11rem;
+            }
+        }
+    }
+
+    .bottom{
+        
+        .bottom-top{
+            margin-left: 13%;
+            padding: 0.5rem;
+            width: 80%;
+            font-size: 0.5rem;
+        }
+
+        .bottom-btm{
+            display: block;
+            width: 103%;
+
+            .btm-1{
+                display: block;
+                margin-left: 3%;
+                border-right: none;
+                width: 60%;
+                border-bottom: 1px solid #828282;
+
+                .img p{
+                    font-size: 0.7rem;
+                    margin-top: -10%;
+                }
+            }
+
+            .btm-2{
+                display: block;
+                margin-top: 5%;
+                margin-left: 12%;
+
+                h2{
+                    font-size: 1rem;
+                }
+
+                h1{
+                    font-size: 1.2rem;
+                }
+
+                p{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+
+    .book{
+    
+        .filter{
+            width: 20rem;
+            margin: 3%;
+            
+            .filt-name{
+                font-size: 1rem;
+            }
+
+            .filt-info{
+                font-size: 0.7rem;
+            }
+        }
+    
+        .book-product ,.cokSatan ,.manga ,.bilimKurgu{
+            width: 10%;
+            margin-top: 4%;
+            margin-right: 2rem;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 1rem;
+            
+        }
+    }
+
+    footer{
+        display: block;
+        width: 95%;
+
+        .ftr-top{
+            display: block;
+            margin-left: 20%;
+
+            .footer-box{
+                line-height: 1rem;
+                font-size: 0.6rem;
+                margin-left: 5%;
+
+                h4{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+
+        .ftr-btm{
+            font-size: 0.7rem;
+            margin-bottom: -4%;
+        }
+    }
+
+    .yayinEvi ,.yazarList{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+        
+    
+        .yayin{
+    
+            .yayinImg{
+                width: 100%;
+        
+                img{
+                    width: 50%;
+                }
+            }
+    
+            a{
+                padding: 0.7rem;
+                font-size: 0.4rem;
+            }
+        }
+    }
+}
+
+@media (max-width:460px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .navbar{
+        width: 100%;
+
+        #lg{
+            font-size: 0.8rem;
+        }
+
+        #a{
+            font-size: 0.4rem;
+            width: 2.2rem;
+            margin-left: -10px;
+        }
+
+        #btn{
+            margin-left: -20px;
+
+            button{
+                margin-left: 5px;
+                font-size: 0.4rem;
+                height: 30px;
+            }
+        }
+
+        #search{
+            input{
+                width: 3rem;
+                height: 30px;
+                font-size: 0.5rem;
+            }
+        }
+    }
+
+    .block{
+        width: 100%;
+        line-height: 5px;
+    }
+
+    .block .text{
+        font-size: 0.6rem;
+    }
+
+    .carousel{
+        width: 98%;
+    }
+
+    .icons{
+        width: 100%;
+        margin-top: -10%;
+        padding: 0;
+
+        a{
+            padding: 0;
+        }
+
+        img{
+            height: 2rem;
+        }
+    }
+
+    .sd{
+        width: 110%;
+    }
+
+    .tabs ul{
+        
+        width: 80%;
+    }
+
+    .tabs ul li{
+        width: 20%;
+        font-size: 0.6rem;
+    }
+    
+    .info{
+        margin-left: 25%;
+        width: 50%;
+
+        .info-img{
+            width: 50%;
+        }
+    }
+    
+    .bottom{
+        
+        .bottom-top{
+            margin-left: 13%;
+            padding: 0.5rem;
+            width: 80%;
+            font-size: 0.4rem;
+        }
+
+        .bottom-btm{
+            display: block;
+            width: 100%;
+
+            .btm-1{
+                display: block;
+                margin-left: 20%;
+                border-right: none;
+                width: 60%;
+                border-bottom: 1px solid #828282;
+
+                .img p{
+                    font-size: 0.7rem;
+                    margin-top: -10%;
+                }
+            }
+
+            .btm-2{
+                display: block;
+                margin-top: 5%;
+                margin-left: 20%;
+
+                h2{
+                    font-size: 1rem;
+                }
+
+                h1{
+                    font-size: 1.2rem;
+                }
+
+                p{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+
+    footer{
+        width: 100%;
+
+        .ftr-top{
+            margin-left: 20%;
+            padding: 1.5rem;
+
+            .footer-box{
+                margin: 1rem;
+                font-size: 0.6rem;
+                line-height: 1rem;
+
+                h4{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .book{
+    
+        .filter{
+            width: 11rem;
+            margin: 3%;
+            
+            .filt-name{
+                font-size: 1rem;
+            }
+
+            .filt{
+                
+                form input{
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:361px){
+    boddy{
+        overflow-x: hidden;
+        max-width: 361px;
+    }
+
+    .navbar{
+        width: 90%;
+
+        #btn{
+            margin-right: 50%;
+            margin-left: -35px;
+
+            button{
+                margin-left: 5px;
+            }
+        }
+
+        #search{
+            input{
+                width: 4rem;
+                height: 30px;
+                margin-left: -10px;
+            }
+            button{
+                display: none;
+
+            }
+        }
+    }
+
+    .yayinEvi ,.yazarList{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+        
+    
+        .yayin{
+    
+            .yayinImg{
+                width: 100%;
+        
+                img{
+                    width: 50%;
+                }
+            }
+    
+            a{
+                padding: 0.7rem;
+                font-size: 0.5rem;
+            }
+        }
+    }
+}
