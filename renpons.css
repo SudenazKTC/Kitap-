@@ -28,49 +28,12 @@
         }
     }
 
-    .block{
-        line-height: 5px;
-    }
-
-    .block .text{
-        font-size: 1.5rem;
-    }
-    
-    .carousel{
-        width: 95%;
-    }
-
-    .icons{
-        margin: 2rem;
-    }
-
     .tabs ul li{
         font-size: 2rem;
     }
 
     #next, #next2, #next3{
         right: 10px;
-    }
-
-    .publisher{
-        width: 110%;
-    }
-
-    .info{
-        width: 100%;
-        margin-left: 15%;
-        display: flex;
-
-        .inf{
-            display: flex;
-        }
-    
-        .info-img{
-    
-            img{
-                width: 30rem;
-            }
-        }
     }
 
     .bottom{
@@ -81,7 +44,6 @@
         }
 
         .bottom-btm{
-            width: 100%;
 
             .btm-1{
                 margin-left: 20%;
@@ -107,23 +69,6 @@
 
                 p{
                     font-size: 1.8rem;
-                }
-            }
-        }
-    }
-
-    footer{
-
-        .ftr-top{
-            padding: 1.5rem;
-
-            .footer-box{
-                margin: 5rem;
-                font-size: 1.8rem;
-                line-height: 3rem;
-
-                h4{
-                    font-size: 2.2rem;
                 }
             }
         }
@@ -155,18 +100,6 @@
         }
     }
 
-    .block{
-        width: 100%;
-    }
-
-    .carousel{
-        width: 100%;
-    }
-
-    .icons{
-        width: 100%;
-    }
-
     .tabs{
         margin-top: 1%;
     }
@@ -182,23 +115,6 @@
     .publisher{
         width: 100%;
         margin-left: 5%;
-    }
-
-    .info{
-        width: 100%;
-        margin-left: 15%;
-        display: flex;
-
-        .inf{
-            display: flex;
-        }
-    
-        .info-img{
-    
-            img{
-                width: 18rem;
-            }
-        }
     }
 
     .bottom{
@@ -236,22 +152,6 @@
         .btn{
             font-size: 1rem;
         }
-
-        #btn{
-            margin-right: 2rem;
-        }
-    }
-
-    .carousel{
-        width: 100%;
-    }
-
-    .icons{
-        width: 100%;
-    }
-
-    .sd{
-        width: 100%;
     }
 
     #next, #next2, #next3{
@@ -273,23 +173,6 @@
                 img{
                     width: 70%;
                 }
-            }
-        }
-    }
-
-    .info{
-        width: 85%;
-        margin-left: 5%;
-        display: flex;
-
-        .inf{
-            display: flex;
-        }
-    
-        .info-img{
-    
-            img{
-                width: 18rem;
             }
         }
     }
@@ -318,10 +201,6 @@
             }
         }
     }
-
-    footer{
-        width: 100%;
-    }
 }
 
 @media(min-width: 1260px) and (max-width:1500px){
@@ -330,7 +209,7 @@
     }
 
     .navbar{
-        width: 110%;    
+        width: 89%;    
 
         .navbar-nav{
             font-size: 0.9rem;
@@ -343,18 +222,24 @@
         .btn{
             font-size: 0.9rem;
         }
+
+        #search{
+            input{
+                width: 5rem;
+                margin-left: 3rem;
+            }
+        }
     }
 
     .block{
-        width: 110%;
-    }
-
-    .carousel{
-        width: 110%;
+        width: 100%;
     }
 
     .icons{
-        width: 110%;
+
+        .card-title{
+            font-size: 1rem;
+        }
     }
 
     .tabs{
@@ -362,16 +247,10 @@
     }
 
     .sd{
-        width: 110%;
-    }
-
-    #next, #next2, #next3{
-        right: 0px;
+        width: 108%;
     }
 
     .slider, .slider2, .slider3{
-        height: 80%;
-        margin-left: 5rem;
         padding: 2rem;
 
         .product, .product2, .product3{
@@ -413,35 +292,18 @@
     }
 
     .publisher{
-        width: 100%;
-        margin-left: 8%;
-    }
-
-    .info{
-        width: 100%;
-        margin-left: 5%;
-        display: flex;
-
-        .inf{
-            display: flex;
-        }
-    
-        .info-img{
-    
-            img{
-                width: 18rem;
-            }
-        }
+        width: 80%;
     }
 
     .bottom{
+        width: 100%;
+        
         .bottom-top{
-            width: 90%;
+            width: 80%;
             margin-left: 8%;
         }
 
         .bottom-btm{
-            width: 110%;
 
             .btm-1{
                 display: block;
@@ -457,10 +319,6 @@
                 }
             }
         }
-    }
-
-    footer{
-        width: 110%;
     }
 }
 
@@ -483,39 +341,34 @@
         .btn{
             font-size: 0.9rem;
         }
+
+        #search{
+            input{
+                width: 8rem;
+                margin-left: 30px;
+            }
+        }
     }
 
     #btn{
         margin-right: 0.5rem;
     }
 
-    .block{
-        width: 100%;
-    }
-
-    .carousel{
-        width: 100%;
-    }
-
     .icons{
-        width: 90%;
+        .card-title{
+            font-size: 0.9rem;
+        }
     }
 
     .tabs{
         margin-top: 1rem;
     }
 
-    #next ,#next2 ,#next3{
-        right: 100px;
-    }
-
     .sd{
-        width: 100%;
+        width: 108%;
     }
 
     .slider, .slider2, .slider3{
-        height: 80%;
-        margin-left: 5rem;
         padding: 2rem;
 
         .product, .product2, .product3{
@@ -557,14 +410,13 @@
     }
 
     .publisher{
-        width: 90%;
             grid-template-columns: repeat(3,1fr);
             gap: 0;
 
             .publisher-box{
                 display: block;
                 margin: 0;
-                margin-left: 2%;
+                margin-left: 10%;
                 width: 40%;
     
                 .box1{
@@ -576,19 +428,9 @@
     }
 
     .info{
-        width: 90%;
-        margin-left: 6%;
-        display: flex;
-
-        .inf{
-            display: flex;
-        }
-    
         .info-img{
-    
             img{
-                width: 13rem;
-                border-radius: 1rem;
+                width: 12rem;
             }
         }
     }
@@ -599,7 +441,6 @@
         }
 
         .bottom-btm{
-            width: 100%;
 
             .btm-1{
                 display: block;
@@ -618,7 +459,6 @@
     }
 
     footer{
-        width: 100%;
 
         .ftr-top{
             margin-left: 5%;
@@ -667,11 +507,10 @@
 @media (min-width: 768px) and (max-width: 991px){
     body{
         overflow-x: hidden;
-        width: 110%;
     }
 
     .navbar{
-        width: 95%;
+        width: 100%;
 
         .navbar-nav{
             font-size: 0.8rem;
@@ -682,7 +521,7 @@
         }
 
         #btn{
-            margin-right: 6rem;
+            margin-left: 10rem;
 
             button{
                 margin-left: 0.5rem;
@@ -696,86 +535,20 @@
         #search{
             input{
                 width: 6rem;
+                margin-left: 10px;
             }
         }
-    }
-
-    .block{
-        width: 98%;
-    }
-
-    .carousel{
-        width: 95%;
     }
 
     .icons{
-        width:80%;
-        margin-top: -3%;
-        margin-left: 5%;
-
-        img{
-            height: 3rem;
-            width: 1rem;    
-        }
 
         .card-title{
-            display: none;
+            font-size: 0.8rem;
         }
-    }
-
-    #next, #next2, #next3{
-        right: 80px;
-    }
-
-    .tabs{
-        width: 90%;
     }
 
     .sd{
-        width: 100%;
-    }
-
-    .slider, .slider2, .slider3{
-        height: 100%;
-        margin-left: 5rem;
-        padding: 2rem;
-
-        .product, .product2, .product3{
-            min-width: 10rem;
-            min-height: 16rem;
-    
-            .product-img{
-                padding: 0;
-                margin-bottom: 0;
-                height: 55%;
-
-                img{
-                    width: 6rem;
-                    height: 7rem;
-                    object-fit: cover;
-                }
-            }
-
-            .product-name{
-                height: 15%;
-                font-size: 0.8rem;
-                margin-top: 0.4rem;
-            }
-
-            .product-price{
-                height: 15%;
-                font-size: 0.9rem;
-                margin-top: -4%;
-            }
-
-            .btn-buy{
-                width: 100%;
-                height: 15%;
-                font-size: 0.7rem;
-                padding: 0;
-                margin-top: -4%;
-            }
-        }
+        width: 108%;
     }
 
     .publisher{
@@ -789,33 +562,20 @@
     }
 
     .info{
-        display: block;
-        margin-left: 15%;
-        width: 70%;
-
-        .inf{
-            display: flex;
-        }
-    
         .info-img{
-            width: 50%;
-    
             img{
                 width: 15rem;
-                border-radius: 1rem;
             }
         }
     }
 
     .bottom{
-        width: 98%;
         .bottom-top{
             font-size: 0.7rem;
             width: 75%;
         }
 
         .bottom-btm{
-            width: 100%;
 
             .btm-1{
                 display: block;
@@ -834,13 +594,16 @@
     }
 
     footer{
-        width: 98%;
 
         .ftr-top{
             margin-left: 1rem;
             padding: 1rem;
 
             .footer-box{
+                h4{
+                    font-size: 1.2rem;
+                }
+
                 font-size: 0.9rem;
                 margin: 0.5rem;
             }
@@ -851,7 +614,6 @@
         width: 88%;
     
         .filter{
-            width: 15rem;
             margin: 3%;
         }
     
@@ -894,11 +656,10 @@
 @media (max-width: 767px){
     body{
         overflow-x: hidden;
-        width: 80%;
     }
 
     .navbar{
-        width: 95%;
+        width: 90%;
 
         .navbar-nav{
             font-size: 0.7rem;
@@ -909,45 +670,28 @@
         }
 
         .btn{
-            margin-left: -50px;
             font-size: 0.7rem;
+        }
+
+        #btn{
+            margin-left: 6rem;
         }
 
         #search{
             input{
-                width: 4rem;
-                margin-left: -10px;
+                width: 6rem;
+                margin-left: 10px;
             }
             button{
                 margin-left: 5%;
             }
         }
     }
-
-    #btn{
-        margin-right: 15%;
-    }
-
-    .block{
-        width: 100%;
-    }
-
-    .carousel{
-        width: 95%;
-    }
-
+    
     .icons{
-        width: 95%;
-        margin-left: -3%;
-        margin-top: -20px;
 
         img{
-            height: 3.5rem;
-            width: 1.5rem;
-        }
-
-        a{
-            padding: 0.2rem;
+            height: 3rem;
         }
 
         .card-body{
@@ -960,86 +704,21 @@
     }
 
     .sd{
-        width: 95%;
-    }
-
-    #next, #next2, #next3{
-        right: 150px;
-    }
-
-    .slider, .slider2, .slider3{
-        height: 80%;
-        margin-left: 5rem;
-        padding: 2rem;
-
-        .product, .product2, .product3{
-            min-width: 6rem;
-            min-height: 12rem;
-    
-            .product-img{
-                padding: 0;
-                margin-bottom: 0;
-                height: 55%;
-
-                img{
-                    width: 3rem;
-                    height: 5rem;
-                    object-fit: cover;
-                }
-            }
-
-            .product-name{
-                height: 15%;
-                font-size: 0.6rem;
-                margin-top: 0.4rem;
-            }
-
-            .product-price{
-                height: 15%;
-                font-size: 0.7rem;
-                margin-top: -4%;
-            }
-
-            .btn-buy{
-                width: 100%;
-                height: 15%;
-                font-size: 0.5rem;
-                padding: 0;
-                margin-top: -4%;
-            }
-        }
+        width: 111%;
     }
 
     .publisher{
-        margin-left: 10%;
         grid-template-columns: repeat(2,1fr);
         gap: 0.1rem;
 
         .publisher-box{
             display: block;
             margin: 0;
-            margin-left: 2%;
-            width: 50%;
-
-            .box1{
-                img{
-                    width: 100%;
-                }
-            }
         }
     }
 
     .info{
-        display: block;
-        margin-left: 10%;
-        width: 50%;
-
-        .inf{
-            display: flex;
-        }
-
         .info-img{
-            width: 50%;
     
             img{
                 width: 12rem;
@@ -1056,7 +735,6 @@
         }
 
         .bottom-btm{
-            width: 100%;
 
             .btm-1{
                 display: block;
@@ -1076,10 +754,8 @@
     }
 
     footer{
-        width: 100%;
 
         .ftr-top{
-            margin-left: -20px;
             padding: 1.5rem;
 
             .footer-box{
@@ -1091,6 +767,15 @@
                     font-size: 1rem;
                 }
             }
+        }
+    }
+
+    book{
+    
+        .book-product ,.cokSatan ,.manga ,.bilimKurgu{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 0.5rem;
         }
     }
 
@@ -1120,91 +805,36 @@
 
 @media (max-width:576px) {
     body{
-        overflow-x: hidden;     
-        width: 100%;
+        overflow-x: hidden;   
     }
 
     .collapse{
         display: none;
     }
-
-    .carousel{
-        width: 100%;
-        margin-top: 2%;
-        z-index: 999;
-    }
     
     .navbar{
-        width: 95%;
 
         #lg{
             font-size: 1.1rem;
         }
 
-        .navbar-nav{
-            font-size: 0.5rem;
-        }
-
-        .dropdown-item{
-            font-size: 0.5rem;
-        }
-
         .btn{
-            margin-left: -50px;
-            font-size: 0.6rem;
+            display: none;
         }
 
         #search{
             input{
-                width: 6rem;
-                margin-left: -10px;
-            }
-
-            button{
-                margin-left: 10px;
+                display: none;
             }
         }
-    }
-
-    .block{
-        width: 95%;
-            font-size: 0.6rem;
-            line-height: 1;
-
-            a{
-                font-size: 0.2rem;
-            }
     }
 
     .block .text{
         font-size: 0.7rem;
-        margin-left: 1%;
-    }
-
-    .block p{
-        margin-top: 1rem;
-    }
-
-    .carousel{
-        width: 95%;
-    }
-
-    .icons{
-        width: 80%;
-        height: 7rem;
-
-        img{
-            width: 3rem;
-            height: 3rem;
-        }
-
-        .card{
-            margin-top: 1rem;
-        }
     }
 
     .tabs{
-        width: 90%;
+        width: 80%;
         margin-left: 2%;
     }
 
@@ -1214,23 +844,11 @@
     }
 
     .sd{
-        width: 100%;
-    }
-
-    #prev, #prev2, #prev3{
-        left: 0;
-        z-index: 999;
-    }
-    
-    #next, #next2, #next3{
-        right: 60px;
-        z-index: 999;
+        width: 103%;
     }
 
     .slider, .slider2, .slider3{
-        height: 20%;
         padding: 2rem;
-        margin-left: 0;
 
         .product, .product2, .product3{
             min-width: 6rem;
@@ -1271,8 +889,7 @@
     }
 
     .publisher{
-        width: 85%;
-        margin-left: 5%;
+        margin-left: 60px;
         grid-template-columns: repeat(2,1fr);
         gap: 0.1rem;
 
@@ -1289,37 +906,17 @@
         }
     }
 
-    .info{
-        display: block;
-        width: 50%;
-        margin-left: 20%;
-
-        .inf{
-            display: block;
-        }
-
-        .info-img{
-            margin-top: 1rem;
-            width: 50%;
-
-            img{
-                width: 11rem;
-            }
-        }
-    }
-
     .bottom{
-        width: 95%;
+        width: 100%;
         
         .bottom-top{
-            padding: 0.5rem;
+            padding: 0;
             width: 75%;
-            font-size: 0.5rem;
+            font-size: 0.4rem;
         }
 
         .bottom-btm{
             display: block;
-            width: 100%;
 
             .btm-1{
                 display: block;
@@ -1382,16 +979,15 @@
 
     footer{
         display: block;
-        width: 95%;
+        align-items: center;
+        justify-content: center;
 
         .ftr-top{
             display: block;
-            margin-left: 20%;
 
             .footer-box{
                 line-height: 1rem;
                 font-size: 0.6rem;
-                margin-left: 5%;
 
                 h4{
                     font-size: 0.8rem;
@@ -1401,7 +997,6 @@
 
         .ftr-btm{
             font-size: 0.7rem;
-            margin-bottom: -4%;
         }
     }
 
@@ -1435,7 +1030,7 @@
     }
 
     .navbar{
-        width: 80%;
+        width: 100%;
 
         #lg{
             font-size: 0.8rem;
@@ -1451,7 +1046,6 @@
             margin-left: 0;
 
             button{
-                margin-left: 5px;
                 font-size: 0.4rem;
                 height: 30px;
             }
@@ -1459,6 +1053,7 @@
 
         #search{
             input{
+                margin-left: 0.5rem;
                 width: 4rem;
                 height: 30px;
                 font-size: 0.5rem;
@@ -1467,7 +1062,7 @@
     }
 
     .block{
-        width: 90%;
+        width: 100%;
         line-height: 5px;
     }
 
@@ -1475,45 +1070,26 @@
         font-size: 0.6rem;
     }
 
-    .carousel{
-        width: 90%;
-    }
-
     .icons{
-        width: 90%;
-        margin-left: -3rem;
-        margin-top: -10%;
-        padding: 0;
-
-        a{
-            padding: 0;
-        }
-
         img{
-            height: 2rem;
+            height: 1.5rem;
         }
     }
 
     .sd{
-        width: 98%;
+        width: 100%;
     }
 
-    .tabs ul{
-        
-        width: 80%;
+    .publisher{
+        margin-left: 3rem;
     }
 
-    .tabs ul li{
-        width: 20%;
-        font-size: 0.6rem;
-    }
-    
     .info{
-        margin-left: 20%;
-        width: 50%;
-
         .info-img{
-            width: 50%;
+
+            img{
+                width: 10rem;
+            }
         }
     }
     
@@ -1521,14 +1097,16 @@
         
         .bottom-top{
             margin-left: 10%;
-            padding: 0.5rem;
             width: 80%;
             font-size: 0.4rem;
+
+            p{
+                margin: 0.5rem;
+            }
         }
 
         .bottom-btm{
             display: block;
-            width: 95%;
 
             .btm-1{
                 display: block;
@@ -1564,7 +1142,6 @@
     }
 
     footer{
-        width: 90%;
 
         .ftr-top{
             margin-left: 20%;
@@ -1605,62 +1182,43 @@
 @media (max-width:361px){
     boddy{
         overflow-x: hidden;
-        max-width: 361px;
     }
 
     .navbar{
-        width: 70%;
+        width: 50%;
 
         #btn{
-            margin-right: 550px;
-
-            button{
-                margin-left: 5px;
-            }
+            display: none;
         }
 
         #search{
-            input{
-                width: 4rem;
-                height: 30px;
-                margin-left: -10px;
-            }
+            display: none;
         }
     }
 
-    .icons{
-        margin-left: -3rem;
-        width: 90%;
+    .block{
+        width: 100%;
     }
+    
     
     .sd{
         width: 100%;
     }
 
     .info{
-        display: block;
-        width: 50%;
-        margin-left: 20%;
-
-        .inf{
-            display: block;
-        }
-
         .info-img{
             margin-top: 1rem;
-            width: 50%;
 
             img{
-                width: 8rem;
+                width: 5rem;
             }
         }
     }
 
     .bottom{
-        width: 95%;
         
         .bottom-top{
-            width: 65%;
+            width: 80%;
         }
 
         .bottom-btm{
@@ -1688,6 +1246,61 @@
             a{
                 padding: 0.7rem;
                 font-size: 0.5rem;
+            }
+        }
+    }
+
+    .book{
+    
+        .filter{
+            width: 8rem;
+    
+    
+            .filt-name{
+                font-size: 0.9rem;
+            }
+            
+            .filt{
+                font-size: 1rem;
+                
+                form input{
+                    font-size: 0.5rem;
+                }
+            }
+        }
+    
+        .book-product ,.cokSatan ,.manga ,.bilimKurgu{
+            width: 8rem;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 1rem;
+    
+            .bk-prd{
+    
+                .book-img{
+
+                    img{
+                        width: 6rem;
+                        height: 8rem;
+                    }
+                }
+
+                .book-name{
+                    font-size: 0.5rem;
+                }
+    
+                .book-price{
+                    font-size: 0.5rem;
+    
+                    span{
+                        font-size: 0.4rem;
+                    }
+                }
+
+                .btn-buy{
+                    width: 5rem;
+                    font-size: 0.5rem;
+                }
             }
         }
     }

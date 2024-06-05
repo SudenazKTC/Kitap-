@@ -110,29 +110,24 @@ body{
 /* Home */
 .icons{
     width: 100%;
-    height: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
+
+    img{
+        height: 4rem;
+        width: 5rem;    
+    }
+
+    .card-title{
+        font-size: 1rem;
+    }
 }
 
-.icons .card{
-    margin-left: 2rem;
-}
-
-.card img{
-    margin-top: 1rem;
-}
-
-.carousel{
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-top: 1%;
-}
 /* Home */
 
 /*Product Slider*/
+.tabs{
+    margin-top: 5%;
+}
+
 .tabs ul li{
     margin-left: 10%;
 }
@@ -236,8 +231,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 1rem;
-    padding: 1rem;
-    padding-left: 4rem;
+    margin-left: 1rem;
 
     .publisher-box{
         display: flex;
@@ -250,23 +244,10 @@ body{
 
 /* info */
 .info{
-    display: flex;
-    width: 100%;
-    margin-top: 1rem;
-    margin-left: 10%;
-    display: flex;
-    padding-left: 1rem;
-
-    .inf{
-        display: flex;
-    }
-
     .info-img{
-        margin-top: 3rem;
-        margin: 10px;
 
         img{
-            width: 18rem;
+            width: 15rem;
             border-radius: 1rem;
         }
     }
@@ -281,15 +262,17 @@ body{
     .bottom-top{
         display: flex;
         text-align: center;
-        padding: 1rem;
+        align-items: center;
         margin: 1rem;
-        margin-left: 10.5%;
+        padding: 0.7rem;
         background: var(--color3);
         width: 80%;
         border-radius: 1rem;
+        font-size: 1rem;
+        margin-left: 10%;
 
-        #mg{
-            margin-left: 5%;
+        p{
+            margin: 1rem;
         }
     }
 

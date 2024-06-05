@@ -37,17 +37,19 @@
                     <li><a class="dropdown-item" href="./kitaplar.html">Kitaplar</a></li>
                     <li><a class="dropdown-item" href="./yayinEvleri.html">Yayın Evleri</a></li>
                     <li><a class="dropdown-item" href="./yazarlar.html">Yazar</a></li>
+                    <li><a class="dropdown-item" href="./register.html">Üye Ol</a></li>
+                    <li><a class="dropdown-item" href="./logIn.html">Giriş Yap</a></li>
                   </ul>
                 </li>
             </ul>
-                <div class="container-fluid" id="search">
+                <div id="search">
                     <form class="d-flex" role="search">
                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                       <button class="btn btn-outline" type="submit">Ara</button>
                     </form>
                 </div>
                 
-                <div class="container-fluid col-3" id="btn">
+                <div class="container-fluid col-5" id="btn">
                     <form class="d-flex">
                       <button class="btn btn-outline" type="submit">
                         <a href="register.html">
@@ -74,7 +76,7 @@
 <!--Nav-->
 
 <!--Home-->
-<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
         <img src="img/ft1.png" class="d-block w-100" alt="...">
@@ -96,58 +98,59 @@
     </button>
 </div>
 
-<div class="icons">
-  <div class="card" style="width: 7rem; border: none;">
+<div class="icons row d-flex justify-content-center align-items-center p-1">
+
+  <div class="card col-lg-6 col-4" style="width: 7rem; border: none;">
     <a href="cokSatanlar.html">
-      <img src="img/icon/icon1.svg" class="card-img-top" alt="..." style="width: 5rem; margin-left: 15px;">
+      <img src="img/icon/icon1.svg" class="card-img-top m-2" alt="...">
     </a>
     <div class="card-body">
-      <h5 class="card-title" style="font-size: 1rem;">Top100</h5>
+      <h5 class="card-title">Top100</h5>
     </div>
   </div>
 
-  <div class="card" style="width: 7rem; border: none;">
+  <div class="card col-lg-6 col-4" style="width: 7rem; border: none;">
     <a href="./manga.html">
-      <img src="img/icon/icon2.svg" class="card-img-top" alt="..." style="width: 5rem;">
+      <img src="img/icon/icon2.svg" class="card-img-top" alt="...">
     </a>
     <div class="card-body">
-      <h5 class="card-title" style="font-size: 1rem;">Manga</h5>
+      <h5 class="card-title">Manga</h5>
     </div>
   </div>
 
-  <div class="card" style="width: 7rem; border: none;">
+  <div class="card col-lg-6 col-4" style="width: 7rem; border: none;">
     <a href="bilimKurgu.html">
-      <img src="img/icon/icon3.svg" class="card-img-top" alt="..." style="width: 5rem;">
+      <img src="img/icon/icon3.svg" class="card-img-top" alt="...">
     </a>
     <div class="card-body">
-      <h5 class="card-title" style="font-size: 1rem;">Bilim Kurgu</h5>
+      <h5 class="card-title">Bilim Kurgu</h5>
     </div>
   </div>
 
-  <div class="card" style="width: 7rem; border: none;">
+  <div class="card col-lg-6 col-4" style="width: 7rem; border: none;">
     <a href="#">
-    <img src="img/icon/icon4.svg" class="card-img-top" alt="..." style="width: 5rem;">
+    <img src="img/icon/icon4.svg" class="card-img-top" alt="...">
     </a>
     <div class="card-body">
-      <h5 class="card-title" style="font-size: 1rem;">Harry Potter</h5>
+      <h5 class="card-title">Harry Potter</h5>
     </div>
   </div>
 
-  <div class="card" style="width: 7rem; border: none;">
+  <div class="card col-lg-6 col-4" style="width: 7rem; border: none;">
     <a href="#">
-      <img src="img/icon/icon5.svg" class="card-img-top" alt="..." style="width: 5rem;">
+      <img src="img/icon/icon5.svg" class="card-img-top" alt="...">
     </a>
     <div class="card-body">
-      <h5 class="card-title" style="font-size: 1rem;">Suç Ve Gizem</h5>
+      <h5 class="card-title">Suç Ve Gizem</h5>
     </div>
   </div>
 
-  <div class="card" style="width: 7rem; border: none;">
+  <div class="card col-lg-6 col-4" style="width: 7rem; border: none;">
     <a href="#">
-      <img src="img/icon/icon6.svg" class="card-img-top" alt="..." style="width: 5rem;">
+      <img src="img/icon/icon6.svg" class="card-img-top" alt="...">
     </a>
     <div class="card-body">
-      <h5 class="card-title" style="font-size: 1rem;">Fantastik</h5>
+      <h5 class="card-title">Fantastik</h5>
     </div>
   </div>
 </div>
@@ -156,7 +159,7 @@
 <!-- MAİN -->
 
 <!--Product Slider-->
-<div class="tabs">
+<div class="tabs col-lg-11 col-11">
   <ul class="nav nav-tabs" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
       <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true" style="color: black;">Çok Satılanlar</button>
@@ -168,325 +171,337 @@
       <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false" style="color: black;">Noveller</button>
     </li>
   </ul>
-  <div class="tab-content" id="myTabContent">
+  <div class="tab-content row align-content-center justify-content-between" id="myTabContent">
     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-      <div class="sd">
-        <button id="prev" class="btn-scroll">
-          <i class='bx bx-chevron-left'></i>
-        </button>
-        
-        <button id="next" class="btn-scroll">
-          <i class='bx bx-chevron-right'></i>
-        </button>
-        
-        <div class="slider">
-
-          <div class="product">
-            <div class="product-img">
-              <img src="./img/ktp/TCF.png" alt="Trash Of The Counts Family">
-            </div>
-            <p class="product-name">Trash Of The Counts Family Novel</p>
-            <p class="product-price">345.99₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
+      <div class="row justify-content-center">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="sd">
+            <button id="prev" class="btn-scroll">
+              <i class='bx bx-chevron-left'></i>
             </button>
+            
+            <button id="next" class="btn-scroll">
+              <i class='bx bx-chevron-right'></i>
+            </button>
+            
+            <div class="slider">
+    
+              <div class="product">
+                <div class="product-img">
+                  <img src="./img/ktp/TCF.png" alt="Trash Of The Counts Family">
+                </div>
+                <p class="product-name">Trash Of The Counts Family Novel</p>
+                <p class="product-price">345.99₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+            
+              <div class="product">
+                <div class="product-img">
+                  <img src="./img/ktp/franzKafka-1.png" alt="Dönüşüm">
+                </div>
+                <p class="product-name">Dönüşüm (M.Klasikler-26) -Franz Kafka</p>
+                <p class="product-price">18.72₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+            
+              <div class="product">
+                <div class="product-img">
+                  <img src="./img/ktp/ORV.png" alt="omniscient reader's viewpoint">
+                </div>
+                <p class="product-name">omniscient reader's viewpoint Novel</p>
+                <p class="product-price">345.99₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+            
+              <div class="product">
+                <div class="product-img">
+                  <img src="./img/ktp/sefiller.png" alt="Sefiller">
+                </div>
+                <p class="product-name">Sefiller (İki Kitap) -Victor Hugo</p>
+                <p class="product-price">155.75₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+            
+              <div class="product">
+                <div class="product-img">
+                  <img src="./img/ktp/stefanZweig-2.jpg" alt="Olağanüstü Bir Gece">
+                </div>
+                <p class="product-name">Olağanüstü Bir gece -Stefan Zweig</p>
+                <p class="product-price">17.70₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+          
+              <div class="product">
+                <div class="product-img">
+                  <img src="./img/ktp/franzKafka-2.jpg" alt="Dava">
+                </div>
+                <p class="product-name">Dava (Ciltli Kitap) -Franz Kafka</p>
+                <p class="product-price">33.12₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+          
+              <div class="product">
+                <div class="product-img">
+                  <img src="./img/ktp/stefanZweig-3.png" alt="Ay Işığı Sokağı">
+                </div>
+                <p class="product-name">Ay Işığı Sokağı (Ciltli) -Stefan Zweig</p>
+                <p class="product-price">47.60₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+          
+              <div class="product">
+                <div class="product-img">
+                  <img src="./img/ktp/trueBeatuy.png" alt="True Beauty">
+                </div>
+                <p class="product-name">True Beauty Novel 1 (Ciltli Kitap)</p>
+                <p class="product-price">247₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+          
+              <div class="product">
+                <div class="product-img">
+                  <img src="./img/ktp/stefanZweig-4.png" alt="Satranç">
+                </div>
+                <p class="product-name">Satranç (Ciltli) -Stefan Zweig</p>
+                <p class="product-price">18.20₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+          
+              <div class="product">
+                <div class="product-img">
+                  <img src="./img/ktp/WMMAP.png" alt="Who Made Me a Princess">
+                </div>
+                <p class="product-name">Beni Kim Prenses Yaptı 1 Novel</p>
+                <p class="product-price">258.40₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+          
+              <div class="product">
+                <div class="product-img">
+                  <img src="./img/ktp/stefanZweig-5.jpg" alt="Mecburiyet">
+                </div>
+                <p class="product-name">Mecburiyet (Ciltli) -Stefan Zweig</p>
+                <p class="product-price">50.40₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+            </div>
+            
+            </div>
           </div>
-        
-          <div class="product">
-            <div class="product-img">
-              <img src="./img/ktp/franzKafka-1.png" alt="Dönüşüm">
-            </div>
-            <p class="product-name">Dönüşüm (M.Klasikler-26) -Franz Kafka</p>
-            <p class="product-price">18.72₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-          </div>
-        
-          <div class="product">
-            <div class="product-img">
-              <img src="./img/ktp/ORV.png" alt="omniscient reader's viewpoint">
-            </div>
-            <p class="product-name">omniscient reader's viewpoint Novel</p>
-            <p class="product-price">345.99₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-          </div>
-        
-          <div class="product">
-            <div class="product-img">
-              <img src="./img/ktp/sefiller.png" alt="Sefiller">
-            </div>
-            <p class="product-name">Sefiller (İki Kitap) -Victor Hugo</p>
-            <p class="product-price">155.75₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-          </div>
-        
-          <div class="product">
-            <div class="product-img">
-              <img src="./img/ktp/stefanZweig-2.jpg" alt="Olağanüstü Bir Gece">
-            </div>
-            <p class="product-name">Olağanüstü Bir gece -Stefan Zweig</p>
-            <p class="product-price">17.70₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-          </div>
-      
-          <div class="product">
-            <div class="product-img">
-              <img src="./img/ktp/franzKafka-2.jpg" alt="Dava">
-            </div>
-            <p class="product-name">Dava (Ciltli Kitap) -Franz Kafka</p>
-            <p class="product-price">33.12₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-          </div>
-      
-          <div class="product">
-            <div class="product-img">
-              <img src="./img/ktp/stefanZweig-3.png" alt="Ay Işığı Sokağı">
-            </div>
-            <p class="product-name">Ay Işığı Sokağı (Ciltli) -Stefan Zweig</p>
-            <p class="product-price">47.60₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-          </div>
-      
-          <div class="product">
-            <div class="product-img">
-              <img src="./img/ktp/trueBeatuy.png" alt="True Beauty">
-            </div>
-            <p class="product-name">True Beauty Novel 1 (Ciltli Kitap)</p>
-            <p class="product-price">247₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-          </div>
-      
-          <div class="product">
-            <div class="product-img">
-              <img src="./img/ktp/stefanZweig-4.png" alt="Satranç">
-            </div>
-            <p class="product-name">Satranç (Ciltli) -Stefan Zweig</p>
-            <p class="product-price">18.20₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-          </div>
-      
-          <div class="product">
-            <div class="product-img">
-              <img src="./img/ktp/WMMAP.png" alt="Who Made Me a Princess">
-            </div>
-            <p class="product-name">Beni Kim Prenses Yaptı 1 Novel</p>
-            <p class="product-price">258.40₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-          </div>
-      
-          <div class="product">
-            <div class="product-img">
-              <img src="./img/ktp/stefanZweig-5.jpg" alt="Mecburiyet">
-            </div>
-            <p class="product-name">Mecburiyet (Ciltli) -Stefan Zweig</p>
-            <p class="product-price">50.40₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-        </div>
-        
         </div>
       </div>
     </div>
   
     <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-      <div class="sd">
-        <button id="prev2" class="btn-scroll">
-          <i class='bx bx-chevron-left'></i>
-        </button>
-        
-        <button id="next2" class="btn-scroll">
-          <i class='bx bx-chevron-right'></i>
-        </button>
-        
-        <div class="slider2">
-<div class="product2">
-            <div class="product-img">
-              <img src="./img/ktp/stefanZweig-2.jpg" alt="Olağanüstü Bir Gece">
-            </div>
-            <p class="product-name">Olağanüstü Bir gece -Stefan Zweig</p>
-            <p class="product-price">17.70₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
+      <div class="row justify-content-center">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="sd">
+            <button id="prev2" class="btn-scroll">
+              <i class='bx bx-chevron-left'></i>
             </button>
-          </div>
-      
-          <div class="product2">
-            <div class="product-img">
-              <img src="./img/ktp/stefanZweig-3.png" alt="Ay Işığı Sokağı">
-            </div>
-            <p class="product-name">Ay Işığı Sokağı -Stefan Zweig</p>
-            <p class="product-price">47.60₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
+            
+            <button id="next2" class="btn-scroll">
+              <i class='bx bx-chevron-right'></i>
             </button>
-          </div>
-      
-          <div class="product2">
-            <div class="product-img">
-              <img src="./img/ktp/trueBeatuy.png" alt="True Beauty">
-            </div>
-            <p class="product-name">True Beauty Novel 1 (Ciltli Kitap)</p>
-            <p class="product-price">247₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-          </div>
-      
-          <div class="product2">
-            <div class="product-img">
-              <img src="./img/ktp/WMMAP.png" alt="Who Made Me a Princess">
-            </div>
-            <p class="product-name">Beni Kim Prenses Yaptı 1 Novel</p>
-            <p class="product-price">258.40₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-          </div>
+            
+            <div class="slider2">
+    <div class="product2">
+                <div class="product-img">
+                  <img src="./img/ktp/stefanZweig-2.jpg" alt="Olağanüstü Bir Gece">
+                </div>
+                <p class="product-name">Olağanüstü Bir gece -Stefan Zweig</p>
+                <p class="product-price">17.70₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
           
-          <div class="product2">
-            <div class="product-img">
-              <img src="./img/ktp/TCF.png" alt="Trash Of The Counts Family">
+              <div class="product2">
+                <div class="product-img">
+                  <img src="./img/ktp/stefanZweig-3.png" alt="Ay Işığı Sokağı">
+                </div>
+                <p class="product-name">Ay Işığı Sokağı -Stefan Zweig</p>
+                <p class="product-price">47.60₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+          
+              <div class="product2">
+                <div class="product-img">
+                  <img src="./img/ktp/trueBeatuy.png" alt="True Beauty">
+                </div>
+                <p class="product-name">True Beauty Novel 1 (Ciltli Kitap)</p>
+                <p class="product-price">247₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+          
+              <div class="product2">
+                <div class="product-img">
+                  <img src="./img/ktp/WMMAP.png" alt="Who Made Me a Princess">
+                </div>
+                <p class="product-name">Beni Kim Prenses Yaptı 1 Novel</p>
+                <p class="product-price">258.40₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+              
+              <div class="product2">
+                <div class="product-img">
+                  <img src="./img/ktp/TCF.png" alt="Trash Of The Counts Family">
+                </div>
+                <p class="product-name">Trash Of The Counts Family Novel</p>
+                <p class="product-price">345.99₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+            
+              <div class="product2">
+                <div class="product-img">
+                  <img src="./img/ktp/franzKafka-1.png" alt="Dönüşüm">
+                </div>
+                <p class="product-name">Dönüşüm (M.Klasikler-26) -Franz Kafka</p>
+                <p class="product-price">18.72₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+            
+              <div class="product2">
+                <div class="product-img">
+                  <img src="./img/ktp/ORV.png" alt="omniscient reader's viewpoint">
+                </div>
+                <p class="product-name">omniscient reader's viewpoint Novel</p>
+                <p class="product-price">345.99₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+            
+              <div class="product2">
+                <div class="product-img">
+                  <img src="./img/ktp/sefiller.png" alt="Sefiller">
+                </div>
+                <p class="product-name">Sefiller (İki Kitap) -Victor Hugo</p>
+                <p class="product-price">155.75₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+            
             </div>
-            <p class="product-name">Trash Of The Counts Family Novel</p>
-            <p class="product-price">345.99₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
           </div>
-        
-          <div class="product2">
-            <div class="product-img">
-              <img src="./img/ktp/franzKafka-1.png" alt="Dönüşüm">
-            </div>
-            <p class="product-name">Dönüşüm (M.Klasikler-26) -Franz Kafka</p>
-            <p class="product-price">18.72₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-          </div>
-        
-          <div class="product2">
-            <div class="product-img">
-              <img src="./img/ktp/ORV.png" alt="omniscient reader's viewpoint">
-            </div>
-            <p class="product-name">omniscient reader's viewpoint Novel</p>
-            <p class="product-price">345.99₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-          </div>
-        
-          <div class="product2">
-            <div class="product-img">
-              <img src="./img/ktp/sefiller.png" alt="Sefiller">
-            </div>
-            <p class="product-name">Sefiller (İki Kitap) -Victor Hugo</p>
-            <p class="product-price">155.75₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-          </div>
-        
         </div>
       </div>
     </div>
   
     <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-      <div class="sd">
-        <button id="prev3" class="btn-scroll">
-          <i class='bx bx-chevron-left'></i>
-        </button>
-        
-        <button id="next3" class="btn-scroll">
-          <i class='bx bx-chevron-right'></i>
-        </button>
-        
-        <div class="slider3">
-<div class="product3">
-            <div class="product-img">
-              <img src="./img/ktp/trueBeatuy.png" alt="True Beauty">
-            </div>
-            <p class="product-name">True Beauty Novel 1 (Ciltli Kitap)</p>
-            <p class="product-price">247₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
+      <div class="row justify-content-center">
+        <div class="col-lg-12 col-md-10 col-sm-12">
+          <div class="sd">
+            <button id="prev3" class="btn-scroll">
+              <i class='bx bx-chevron-left'></i>
             </button>
-          </div>
-      
-          <div class="product3">
-            <div class="product-img">
-              <img src="./img/ktp/WMMAP.png" alt="Who Made Me a Princess">
-            </div>
-            <p class="product-name">Beni Kim Prenses Yaptı 1 Novel</p>
-            <p class="product-price">258.40₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
+            
+            <button id="next3" class="btn-scroll">
+              <i class='bx bx-chevron-right'></i>
             </button>
-          </div>
+            
+            <div class="slider3">
+    <div class="product3">
+                <div class="product-img">
+                  <img src="./img/ktp/trueBeatuy.png" alt="True Beauty">
+                </div>
+                <p class="product-name">True Beauty Novel 1 (Ciltli Kitap)</p>
+                <p class="product-price">247₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
           
-          <div class="product3">
-            <div class="product-img">
-              <img src="./img/ktp/TCF.png" alt="Trash Of The Counts Family">
+              <div class="product3">
+                <div class="product-img">
+                  <img src="./img/ktp/WMMAP.png" alt="Who Made Me a Princess">
+                </div>
+                <p class="product-name">Beni Kim Prenses Yaptı 1 Novel</p>
+                <p class="product-price">258.40₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+              
+              <div class="product3">
+                <div class="product-img">
+                  <img src="./img/ktp/TCF.png" alt="Trash Of The Counts Family">
+                </div>
+                <p class="product-name">Trash Of The Counts Family Novel</p>
+                <p class="product-price">345.99₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+    
+              <div class="product3">
+                <div class="product-img">
+                  <img src="./img/ktp/ORV.png" alt="omniscient reader's viewpoint">
+                </div>
+                <p class="product-name">omniscient reader's viewpoint Novel</p>
+                <p class="product-price">345.99₺</p>
+                <button class="btn-buy">
+                  <i class='bx bx-plus'></i>
+                  Sepete Ekle
+                </button>
+              </div>
+            
             </div>
-            <p class="product-name">Trash Of The Counts Family Novel</p>
-            <p class="product-price">345.99₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
           </div>
-
-          <div class="product3">
-            <div class="product-img">
-              <img src="./img/ktp/ORV.png" alt="omniscient reader's viewpoint">
-            </div>
-            <p class="product-name">omniscient reader's viewpoint Novel</p>
-            <p class="product-price">345.99₺</p>
-            <button class="btn-buy">
-              <i class='bx bx-plus'></i>
-              Sepete Ekle
-            </button>
-          </div>
-        
         </div>
       </div>
     </div>
@@ -500,32 +515,39 @@
 <!-- Publisher -->
 
 <!-- İnfo -->
-<div class="info">
-  <div class="inf">
-    <div class="info-img">
-      <img src="img/en-eglenceli-puzzlelar-en-uygun-fiyatlarla-kmp-blok.webp">
+<div class="info container">
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class=" col-lg-3  col-6">
+      <div class="info-img w-100">
+        <img class="p-1" src="img/en-eglenceli-puzzlelar-en-uygun-fiyatlarla-kmp-blok.webp">
+    </div>
     </div>
   
-    <div class="info-img">
-      <img src="img/film-ve-dizilere-uyarlanan-kitaplar-kmp-blok-V2.webp">
+  
+    <div class=" col-lg-3 col-6">
+    <div class="info-img w-100">
+      <img class="p-1" src="img/film-ve-dizilere-uyarlanan-kitaplar-kmp-blok-V2.webp">
     </div>
-
-  </div>
-
-  <div class="inf">
-    <div class="info-img">
-      <img src="img/herkese-hitap-eden-kitap-tavsiyeleri-mayis-kmp-blok-V2.webp">
     </div>
   
-    <div class="info-img">
-      <img src="img/okula-yardimci-ve-sinavlara-hazirlik-kitaplari-kmp-blok-V2.webp">
+  
+    <div class=" col-lg-3 col-6">
+      <div class="info-img w-100">
+        <img class="p-1" src="img/herkese-hitap-eden-kitap-tavsiyeleri-mayis-kmp-blok-V2.webp">
+      </div>
+    </div>
+    
+    <div class=" col-lg-3 col-6">
+      <div class="info-img w-100">
+        <img class="p-1" src="img/okula-yardimci-ve-sinavlara-hazirlik-kitaplari-kmp-blok-V2.webp">
+      </div>
     </div>
   </div>
 </div>
 <!-- İnfo -->
 
 <!-- Bottom -->
-<div class="bottom">
+<div class="bottom col-lg-12 col-12">
   <div class="bottom-top">
     <p>Yüz Binlerce Çeşidin
       DOĞRU ADRESİ
@@ -599,7 +621,7 @@
 <!-- MAİN -->
 
 <!-- Footer -->
-  <footer>
+  <footer class=" col-lg-12 col-12">
     <div class="ftr-top">
       <div class="footer-box">
         <h4>Kategoeriler</h4>
